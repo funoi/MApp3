@@ -1,0 +1,15 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<students>
+    <student id="1">
+        <name>芙宁娜</name>
+        <age>18</age>
+        <sex>女</sex>
+        <edu>大学</edu>
+        <hobbies>
+            <hobby>c++</hobby>
+            <hobby>python</hobby>
+            <hobby>java</hobby>
+            <hobby>amd</hobby>
+        </hobbies>
+    </student>
+</students>

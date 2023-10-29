@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <string-array name="education_array">
+        <item>小学</item>
+        <item>初中</item>
+        <item>高中</item>
+        <item>大学</item>
+    </string-array>
+</resources>
