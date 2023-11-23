@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              android:gravity="center_vertical">
+
+    <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="?android:attr/listDivider"
+    />
+    <TextView
+            android:text="@string/tab_item_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/show_title"/>
+    <TextView
+            android:text="@string/id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/show_id"/>
+    <TextView
+            android:text="@string/age"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/show_age"/>
+    <TextView
+            android:text="@string/sex"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/show_sex"/>
+    <TextView
+            android:text="@string/edu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/show_edu"/>
+    <TextView
+            android:text="@string/hobby"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/show_hobby"/>
+
+</LinearLayout>

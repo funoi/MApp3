@@ -29,7 +29,7 @@ public class DBHelper extends SQLiteOpenHelper {
     }
 
 
-    //该方法只有在执行read/write方法时,被触发调用,且只执行一次
+    // 该方法只有在执行read/write方法时,被触发调用,且只执行一次
     @Override
     public void onCreate(SQLiteDatabase db) {
         // 在该方法中创建数据表
@@ -37,7 +37,7 @@ public class DBHelper extends SQLiteOpenHelper {
         db.execSQL(sql); //执行当前的sql语句
     }
 
-    //该方法只有在执行数据库更新的时候,被触发调用,且只执行一次
+    // 该方法只有在执行数据库更新的时候,被触发调用,且只执行一次
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
 

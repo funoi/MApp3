@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">MyApp2</string>
+    <string name="tab_item_title">标题</string>
+    <string name="tab_item_content">内容</string>
+    <string name="id">id</string>
+    <string name="age">age</string>
+    <string name="sex">sex</string>
+    <string name="edu">edu</string>
+    <string name="hobby">hobby</string>
 </resources>
