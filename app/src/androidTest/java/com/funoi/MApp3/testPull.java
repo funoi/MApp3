@@ -15,7 +15,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 @RunWith(AndroidJUnit4.class)
-
 public class testPull {
     Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
     private static  final String  Tag="XmlTest";
